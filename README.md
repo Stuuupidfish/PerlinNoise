@@ -3,6 +3,8 @@
 Hi guys this project is just me wanting to learn about procedural generation.
 Procedural generation is used a lot in games and game development and Perlin Noise specifically is used a lot for things like terrain generation and textures so it was something I was curious about.
 
+<img width="587" height="417" alt="Screenshot 2026-05-19 224947" src="https://github.com/user-attachments/assets/cb7d2f9f-cc73-479d-9f6b-5c4c2828393c" />
+
 <!-- ## What is Perlin Noise?
 (This part is mostly me making sure I understand it) -->
 
