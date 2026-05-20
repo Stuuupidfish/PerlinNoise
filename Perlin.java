@@ -1,5 +1,9 @@
-public class Perlin {
-    
+public class Perlin 
+{    
+    public Perlin() 
+    {
+
+    }
     public double perlin(double x, double y)
     {
         //corners
