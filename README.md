@@ -8,7 +8,7 @@ Procedural generation is used a lot in games and game development and Perlin Noi
 ## What is Perlin Noise?
 Perlin noise is a pseudo-random procedural texture. Its basically a function that takes in some inputs and spits out some output(s).
 
-My Perlin Noise generator implements 2D scalar noise $f : \mathbb{R}^2 \rightarrow \mathbb{R}$, so for a pixel at coordinate $(x_i,y_i)$ the program spits out a scalar output. For applications such as textures and terrain generation, this scalar can be used as a height map where $z = f(x,y)$. To produce RGB values I just mapped the scalar to color. In this program, outputs go from $[-1,1]$ so something like $-1$ can map to black and $1$ can map to white and any value inbetween will be some shade of grey.
+My Perlin Noise generator implements 2D scalar noise $f : \mathbb{R}^2 \rightarrow \mathbb{R}$, so for a pixel at coordinate $(x_i,y_i)$ the program spits out a scalar output. For applications such as textures and terrain generation, this scalar can be used as a height map where $z = f(x,y)$. To produce RGB values I just mapped the scalar value to color. 
 
 To make Perlin Noise, you create a grid and assign a random unit vector to every vertex. Then, for each pixel, you find which grid square it falls into. You calculate the displacement vector from that pixel to each corner of the square, and take the dot product of each displacement vector with its corresponding gradient vector. These dot products are then interpolated to get the final noise value.
 
